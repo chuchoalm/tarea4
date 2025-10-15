@@ -1,0 +1,19 @@
+graph G {
+    // Configuración del grafo
+    node [shape=circle, style=filled, fillcolor=lightblue, fontname=Arial];
+    edge [fontname=Arial];
+
+    // Nodos
+    "A";
+    "B";
+    "C";
+    "D";
+    "E";
+
+    // Aristas
+    "A" -- "B" [label="10"];
+    "A" -- "C" [label="15"];
+    "B" -- "D" [label="20"];
+    "C" -- "E" [label="25"];
+    "D" -- "E" [label="30"];
+}
